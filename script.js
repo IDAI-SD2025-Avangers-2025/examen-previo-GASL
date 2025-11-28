@@ -44,7 +44,7 @@ function Calcular() {
         total += 1000;
     } else if (disco == "250gb") {
         total += 900;
-    } else if (disco == "500gb") {  
+    } else if (disco == "500gb2") {  
         total += 1380;
     } else {
         alert("Selecciona disco");
@@ -126,23 +126,45 @@ function Calcular() {
     total += 150;
     }
 
+    if (formulario.hubusb.checked) {
+    total += 150;
+    }
 
+    if (formulario.audifonos.checked) {
+    total += 150;
+    }
 
+    if (formulario["monitor-adicional"].checked) {
+    total += 150;
+    }
 
+    if (formulario.soporte.checked) {
+    total += 150;
+    }
 
+    if (formulario.ventilador.checked) {
+    total += 150;
+    }
 
+    if (formulario.microfono.checked) {
+    total += 150;
+    }
 
+    if (formulario.lectorsd.checked) {
+    total += 150;
+    }
 
+    if (formulario.hdmi.checked) {
+    total += 150;
+    }
 
-hubusb
-audifonos
-monitor-adicional
-soporte
-ventilador
-microfono
-lectorsd
-hdmi
-baserefri
-herramientas
+    if (formulario.baserefri.checked) {
+    total += 150;
+    }
 
+    if (formulario.herramientas.checked) {
+    total += 150;
+    }
+
+    document.getElementById("total").value = "$" + total;
 }

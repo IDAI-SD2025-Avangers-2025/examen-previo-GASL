@@ -1,6 +1,6 @@
 body{
     label{
-          color: rgb(189, 89, 223);
+          color: rgb(18, 180, 189);
           font-size: large;
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -11,8 +11,22 @@ background-color: black;
 }
 
 .lo{
-background-color: darkslategray;
+background-color: rgb(30, 50, 36);
 text-align: center;
-
+width: 500px;
+padding: 15px;
+margin: 40px auto;
 }
 
+.contenedor {
+  display: flex;         
+  justify-content: center;
+  padding: 4px;
+}
+
+.colum {
+  border: 1px solid #89d5e4;
+  flex: 1;               
+  text-align: center;
+  padding: 10px;
+}
