@@ -1,9 +1,18 @@
 body{
     label{
-          color: yellow;
+          color: rgb(189, 89, 223);
+          font-size: large;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     }
     
 color: white;
 background-color: black;
+}
+
+.lo{
+background-color: darkslategray;
+text-align: center;
+
 }
 

@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-
+<div class="lo">
     <h1>COMPUTER CENTER</h1>
-        <h2>Diseña y configura tu propia computadora personal de videojuegos</h2>    
+        <h2>Diseña y configura tu propia computadora personal de videojuegos</h2>  <hr>  
 
 
         <form action="componentes">
@@ -39,14 +39,14 @@
                     <option value="250gb">250 GB SSD</option>
                     <option value="500gb">500 GB SSD</option>
                 </select>
-
+<br><br>
         <label>Selecciona tu Memoria RAM:</label><br>
                 <select name="ram">
                     <option value="4gb">4 GB</option>
                     <option value="8gb">8 GB</option>
                     <option value="16gb">16 GB</option>
                 </select>
-
+<br><br>
         <label>Selecciona tu Monitor:</label><br>
                 <select name="monitor">
                     <option value="17pul">17"</option>
@@ -56,7 +56,7 @@
                     <option value="27pul">27"</option>
                     <option value="32pul">32"</option>
                 </select>
-                <br>
+            <br>    <br>
             <!--Confundí EL CHECK-->
             <label>Accesorios:</label><br>
               <input type="checkbox" name="mouse">Mouse <br>
@@ -80,11 +80,13 @@
               <input type="checkbox" name="baserefri">Base refrigerante <br>
               <input type="checkbox" name="herramientas">Caja de herramientas. <br>
               
-              <button>Enviar</button>
+              <button type="button" onclick="Calcular()">Calcular Total</button>
+
 
               <br>
 
         </form>
+</div>
 
         <b>Elaborado por: Gabriela Anahi Saldaña Luevano · Proyecto de Formulario · © 2025</b>
     <!-- 
